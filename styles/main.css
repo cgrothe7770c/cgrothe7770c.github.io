@@ -1,0 +1,76 @@
+html {
+    font-family: sans-serif;
+	background-image: url("../images/bats.gif");
+}
+header {
+    border-bottom: solid black;
+}
+header img {
+    float: left;
+}
+header h1 {
+    font-size: 50px;
+    background: linear-gradient(45deg, white, orange, black);
+}
+header h1 {
+    text-indent: 1%;
+}
+header h2 {
+    text-indent: 6%;
+}
+#large-w::first-letter {
+    font-size: 50px;
+}
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 25px;
+}
+h3 {
+    font-size: 20px;
+}
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+li a {
+    color: orange;
+    font-weight: bold;
+}
+li a:hover {
+    color: green;
+}
+li {
+    margin: 0 0 4px 0;
+}
+footer {
+    overflow: auto;
+    width: 800px;
+    font-size: 15px;
+    text-align: center;
+	border-top: solid black;
+    background: linear-gradient(-45deg, white, orange, black);
+}
+body {
+    margin: auto;
+	width: 800px;
+	background-color: white;
+    border: double black;
+}
+nav {
+    width: 140px;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20%;
+    float: left;
+}
+#cat {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 76%;
+    left: 52%;
+}
